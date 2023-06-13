@@ -18,5 +18,4 @@
             <ShellContent ContentTemplate="{DataTemplate views:MapPage}"></ShellContent>
         </Tab>
     </TabBar>
-
 </Shell>
