@@ -17,10 +17,6 @@
              Icon="map.png">
             <ShellContent ContentTemplate="{DataTemplate views:MapPage}"></ShellContent>
         </Tab>
-        <Tab Title="Профиль"
-             Icon="user.png">
-            <ShellContent ContentTemplate="{DataTemplate views:UserPage}"></ShellContent>
-        </Tab>
     </TabBar>
 
 </Shell>
