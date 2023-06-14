@@ -5,9 +5,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TownscapeMobile"
     Shell.FlyoutBehavior="Disabled"
-    xmlns:views="clr-namespace:TownscapeMobile.views"
-    BackgroundColor="#ef233c">
-
+    xmlns:views="clr-namespace:TownscapeMobile.views">
+    
     <TabBar>
         <Tab Title="События"
              Icon="online.png">
@@ -16,6 +15,10 @@
         <Tab Title="Карта"
              Icon="map.png">
             <ShellContent ContentTemplate="{DataTemplate views:MapPage}"></ShellContent>
+        </Tab>
+        <Tab Title="Профиль"
+             Icon="user.png">
+            <ShellContent ContentTemplate="{DataTemplate views:UserPage}"></ShellContent>
         </Tab>
     </TabBar>
 
