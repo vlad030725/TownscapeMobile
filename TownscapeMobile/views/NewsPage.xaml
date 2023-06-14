@@ -5,7 +5,7 @@
              Title="NewsPage">
     <VerticalStackLayout>
         <Label 
-            Text="Эгегей, пидорасы!"
+            Text="Здесь будут новости!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
