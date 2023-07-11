@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled"
     xmlns:views="clr-namespace:TownscapeMobile.views">
     
-    <TabBar>
+    <TabBar> <!-- Панель навигации -->
         <Tab Title="События"
              Icon="online.png">
             <ShellContent ContentTemplate="{DataTemplate views:NewsPage}"></ShellContent>
